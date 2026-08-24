@@ -361,6 +361,14 @@ function AuthModal({ isOpen, onClose, initialMode = "login", onLoginSuccess }) {
             {isSignup ? "Log In" : "Sign Up free"}
           </button>
         </p>
+
+        <p
+          className="font-bold"
+          style={{ fontSize: "12px", color: "gray", marginTop: "10px" }}
+        >
+          Demo Credentials: <br /> USER: user@gmail.com password: user <br />
+          USER2: user2@gmail.com password: user2
+        </p>
       </div>
     </div>
   );
